@@ -20,259 +20,210 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Ricky Lee",
+  initials: "RL",
+  location: "Mountain View, CA",
+  locationLink: "https://www.google.com/maps/place/Mountain+View",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Data Scientist/ML Engineer experienced in building practical machine learning systems. Complex problems that call for ML and AI solutions are what excite me the most!",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "",
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "https://leerickss.github.io",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "rickyleeworks2@gmail.com",
+    tel: "9178379737",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/leerickss",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/leerickss",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://twitter.com/leerickss",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Stanford University",
+      degree: "Master of Science in Statistics (Track: Data Science)",
+      start: "2016",
+      end: "2018",
+    },
+    {
+      school: "Columbia University",
+      degree: "Bachelor of Science in Applied Mathematics (Cum Laude)",
+      start: "2012",
+      end: "2016",
     },
   ],
   work: [
+    // {
+    //   company: "Parabol",
+    //   link: "https://parabol.co",
+    //   badges: ["Remote"],
+    //   title: "Senior Full Stack Developer",
+    //   logo: ParabolLogo,
+    //   start: "2021",
+    //   end: "2024",
+    //   description:
+    //     "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+    // },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+      company: "AppLovin",
+      link: "https://www.applovin.com/",
+      badges: ["hoho"],
+      title: "Data Scientist",
+      logo: "", 
+      start: "2020",
+      end: "2023",
+      description: (
+        <>
+          <li>
+          Developed and shipped ML models predicting key ad metrics
+           (including ad revenue, install rate and event rate) that power AppDiscovery,
+            a user acquisition service which drove over $300 million in quarterly revenue
+             using BigQuery, Spark, and PyTorch.
+            {" "}
+            <a href="https://www.applovin.com/appdiscovery/">[1]</a>
+          </li>
+          <li>
+          Managed deployment and A/B testing of models developed;
+           each improvement boosted advertiser spend and margin by up to 10%.
+          </li>
+          <li>
+          Created a gradient-based feature importance measurement tool
+           using PyTorch Captum to guide feature and model architecture development
+            for the first launch of deep learning models (Axon 2.0 for AppDiscovery).
+            <a href="https://www.applovin.com/blog/appdiscoverys-ai-advancements/">[2]</a>
+          </li>
+          <li>
+          Implemented ML metric logging and monitored 1000+ models in production
+           using Weights & Biases and Grafana.
+          </li>
+        </>
+      ),
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+      company: "Machine Zone",
+      link: "https://www.mz.com/",
+      badges: ["hoho"],
+      title: "Data Scientist",
+      logo: "", 
+      start: "2019",
+      end: "2020",
+      description: (
+        <>
+          <li>
+          Automated the aggregation of costs associated with fraudulent channels
+           using Airflow, which saved $500k+(~5% of spend) of monthly cost
+            and replaced manual efforts with auto-generated reports.
+          </li>
+          <li>
+          Designed and implemented new signals for a fraud detection system
+           that multiple teams of marketing analysts used daily for campaign optimization,
+            using Pandas, Spark and MySQL.
+          </li>
+          <li>
+          Led technical communications with ad networks (Unity, Tapjoy) for
+           refund negotiations, by explaining statistical methodologies used
+            for fraud detection. 
+          </li>
+        </>
+      ),
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      company: "A9.com (Amazon)",
+      link: "https://en.wikipedia.org/wiki/A9.com",
+      badges: ["hoho"],
+      title: "Software Development Intern",
+      logo: "", 
+      start: "2017",
+      end: "",
+      description: (
+        <>
+          <li>
+          Researched and developed a Deep Semantic Embedding for Sponsored products
+           using TensorFlow, designed for ranking, filtering and other downstream tasks. 
+          </li>
+          <li>
+          Implemented a multimodal (text + image) two-tower architecture model,
+           trained on a data set of 10+ million user purchases.
+          </li>
+          <li>
+          Created visualization and retrieval demos for in-depth qualitative analysis
+           and final presentation.
+          </li>
+        </>
+      ),
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Python", "C++", "Java", "R",
+    "SQL", "Spark", "PyTorch", "TensorFlow", "Airflow"
   ],
   projects: [
     {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      title: "Deploying Open Source LLMs for DreamTavern.ai",
+      techStack: ["", "TypeScript", ],
+      description: (
+        <>
+          <li>
+          Spearheaded the deployment of open source LLMs for text generation inference,
+           transitioning from OpenAI API calls, to offer users broader model and chat experience options.
+          </li>
+          <li>
+          Tested multiple cloud providers (AWS, RunPod), GPUs (A100, RTX A6000, A40),
+           LLMs (primarily Llama2-based) and inference server frameworks (Hugging Face TGI, vLLM)
+            to find the optimal blend of cost-efficiency, low latency and output quality.
+          </li>
+          <li>
+          Conducted qualitative evaluations of model outputs and optimized
+           inference parameters and prompts for several LLM-enabled backend tasks
+           to ensure alignment with desired user experience.
+          </li>
+        </>
+      ),
+      logo: "",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "dreamtavern.ai",
+        href: "https://dreamtavern.ai/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
+      title: "Neural Network with CUDA & MPI",
+      techStack: ["Side Project", ""],
+      description: (`
+        Trained an MLP network in C++, parallelizing key operations such as 
+        matrix multiplication and back-propagation with CUDA and 
+        trained across 4 GPUs and processes using MPI.
+      `),
+      logo: "",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "dunno",
+        href: "",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+      title: "Fighting Zombies in Minecraft with Deep Reinforcement Learning",
+      techStack: ["Side Project", ""],
+      description: (`
+      Trained a Minecraft agent to combat zombies with DQN algorithm using
+       TensorFlow on Project Malmo (Minecraft simulation platform)
+      `),
+      logo: "",
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "dunno",
+        href: "",
       },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
