@@ -28,7 +28,7 @@ export const RESUME_DATA = {
     "Data Scientist/ML Engineer experienced in building practical machine learning systems. Complex problems that call for ML and AI solutions are what excite me the most!",
   summary:
     "",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+  avatarUrl: "https://avatars.githubusercontent.com/u/20169753?v=4",
   personalWebsiteUrl: "https://leerickss.github.io",
   contact: {
     email: "rickyleeworks2@gmail.com",
