@@ -184,11 +184,10 @@ export const RESUME_DATA = {
     {
       title: "Neural Network with CUDA & MPI",
       techStack: ["c++", "cuda", "mpi", "profiling"],
-      description: (
+      description:
         "Trained an MLP network in C++, parallelizing key operations such as" + 
         " matrix multiplication and back-propagation with CUDA and" +  
-        " trained across 4 GPUs and processes using MPI."
-      ),
+        " trained across 4 GPUs and processes using MPI.",
       logo: "",
       link: {
         label: "",
@@ -198,10 +197,9 @@ export const RESUME_DATA = {
     {
       title: "Fighting Zombies in Minecraft with Deep Reinforcement Learning",
       techStack: ["python", "tensorflow", "deep q learning"],
-      description: (
+      description:
         "Trained a Minecraft agent to combat zombies with DQN algorithm using" +
-        " TensorFlow on Project Malmo (Minecraft simulation platform)."
-      ),
+        " TensorFlow on Project Malmo (Minecraft simulation platform).",
       logo: "",
       link: {
         label: "",
