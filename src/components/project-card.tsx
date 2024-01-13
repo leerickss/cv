@@ -9,7 +9,7 @@ import { Badge } from "./ui/badge";
 
 interface Props {
   title: string;
-  description: string;
+  description: React.ReactNode;  //string;
   tags: readonly string[];
   link?: string;
 }
