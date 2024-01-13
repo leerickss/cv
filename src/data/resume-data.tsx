@@ -80,7 +80,7 @@ export const RESUME_DATA = {
     {
       company: "AppLovin",
       link: "https://www.applovin.com/",
-      badges: ["hoho"],
+      badges: ["Core Engineering"],
       title: "Data Scientist",
       logo: "", 
       start: "2020",
@@ -92,7 +92,6 @@ export const RESUME_DATA = {
            (including ad revenue, install rate and event rate) that power AppDiscovery,
             a user acquisition service which drove over $300 million in quarterly revenue
              using BigQuery, Spark, and PyTorch.
-            {" "}
             <a href="https://www.applovin.com/appdiscovery/">[1]</a>
           </li>
           <li>
@@ -115,7 +114,7 @@ export const RESUME_DATA = {
     {
       company: "Machine Zone",
       link: "https://www.mz.com/",
-      badges: ["hoho"],
+      badges: ["Marketing Data Science Research"],
       title: "Data Scientist",
       logo: "", 
       start: "2019",
@@ -143,11 +142,11 @@ export const RESUME_DATA = {
     {
       company: "A9.com (Amazon)",
       link: "https://en.wikipedia.org/wiki/A9.com",
-      badges: ["hoho"],
-      title: "Software Development Intern",
+      badges: ["Ad Technology Predictive Modeling"],
+      title: "Graduate Software Development Intern",
       logo: "", 
       start: "2017",
-      end: "",
+      end: "2017",
       description: (
         <>
           <li>
@@ -173,7 +172,7 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "Deploying Open Source LLMs for DreamTavern.ai",
-      techStack: ["", "TypeScript", ],
+      techStack: ["python", "docker", "cloud", "huggingface", "llms", "prompt engineering"],
       description: (
         <>
           <li>
@@ -200,7 +199,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Neural Network with CUDA & MPI",
-      techStack: ["Side Project", ""],
+      techStack: ["c++", "cuda", "mpi", "profiling"],
       description: (`
         Trained an MLP network in C++, parallelizing key operations such as 
         matrix multiplication and back-propagation with CUDA and 
@@ -208,20 +207,20 @@ export const RESUME_DATA = {
       `),
       logo: "",
       link: {
-        label: "dunno",
+        label: "",
         href: "",
       },
     },
     {
       title: "Fighting Zombies in Minecraft with Deep Reinforcement Learning",
-      techStack: ["Side Project", ""],
+      techStack: ["python", "tensorflow", "deep q learning"],
       description: (`
       Trained a Minecraft agent to combat zombies with DQN algorithm using
        TensorFlow on Project Malmo (Minecraft simulation platform)
       `),
       logo: "",
       link: {
-        label: "dunno",
+        label: "",
         href: "",
       },
     },
