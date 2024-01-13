@@ -1,21 +1,5 @@
 import {
   AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -25,9 +9,9 @@ export const RESUME_DATA = {
   location: "Mountain View, CA",
   locationLink: "https://www.google.com/maps/place/Mountain+View",
   about:
-    "Data Scientist/ML Engineer experienced in building practical machine learning systems. Complex problems that call for ML and AI solutions are what excite me the most!",
-  summary:
     "",
+  summary:
+    "Data Scientist/ML Engineer experienced in building practical machine learning systems. Complex problems that call for ML and AI solutions are what excite me the most!",
   avatarUrl: "https://avatars.githubusercontent.com/u/20169753?v=4",
   personalWebsiteUrl: "https://leerickss.github.io",
   contact: {
@@ -200,11 +184,11 @@ export const RESUME_DATA = {
     {
       title: "Neural Network with CUDA & MPI",
       techStack: ["c++", "cuda", "mpi", "profiling"],
-      description: (`
-        Trained an MLP network in C++, parallelizing key operations such as 
-        matrix multiplication and back-propagation with CUDA and 
-        trained across 4 GPUs and processes using MPI.
-      `),
+      description: (
+        "Trained an MLP network in C++, parallelizing key operations such as" + 
+        " matrix multiplication and back-propagation with CUDA and" +  
+        " trained across 4 GPUs and processes using MPI."
+      ),
       logo: "",
       link: {
         label: "",
@@ -214,10 +198,10 @@ export const RESUME_DATA = {
     {
       title: "Fighting Zombies in Minecraft with Deep Reinforcement Learning",
       techStack: ["python", "tensorflow", "deep q learning"],
-      description: (`
-      Trained a Minecraft agent to combat zombies with DQN algorithm using
-       TensorFlow on Project Malmo (Minecraft simulation platform)
-      `),
+      description: (
+        "Trained a Minecraft agent to combat zombies with DQN algorithm using" +
+        " TensorFlow on Project Malmo (Minecraft simulation platform)."
+      ),
       logo: "",
       link: {
         label: "",
