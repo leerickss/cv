@@ -62,6 +62,33 @@ export const RESUME_DATA = {
     //     "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
     // },
     {
+      company: "DreamTavern (Raised seed round from Lux Capital, BoxGroup)",
+      link: "https://www.dreamtavern.ai/",
+      badges: ["ML Consulting"],
+      title: "Consultant",
+      logo: "", 
+      start: "2023",
+      end: "Present",
+      description: (
+        <>
+          <li>
+          Spearheaded the deployment of open source LLMs for text generation inference,
+           transitioning from OpenAI API calls, to offer users broader model and chat experience options.
+          </li>
+          <li>
+          Tested multiple cloud providers (AWS, RunPod), GPUs (A100, RTX A6000, A40),
+           LLMs (primarily Llama2-based) and inference server frameworks (Hugging Face TGI, vLLM)
+           to find the optimal blend of cost-efficiency, low latency and output quality.
+          </li>
+          <li>
+          Conducted qualitative evaluations of model outputs and optimized
+           inference parameters and prompts for several LLM-enabled backend tasks
+           to ensure alignment with desired user experience.
+          </li>
+        </>
+      ),
+    },
+    {
       company: "AppLovin",
       link: "https://www.applovin.com/",
       badges: ["Core Engineering"],
@@ -96,7 +123,7 @@ export const RESUME_DATA = {
       ),
     },
     {
-      company: "Machine Zone",
+      company: "Machine Zone (Acq. ",
       link: "https://www.mz.com/",
       badges: ["Marketing Data Science Research"],
       title: "Data Scientist",
@@ -154,33 +181,33 @@ export const RESUME_DATA = {
     "SQL", "Spark", "PyTorch", "TensorFlow", "Airflow"
   ],
   projects: [
-    {
-      title: "Deploying Open Source LLMs for DreamTavern.ai",
-      techStack: ["python", "docker", "cloud", "huggingface", "llms", "prompt engineering"],
-      description: (
-        <>
-          <li>
-          Spearheaded the deployment of open source LLMs for text generation inference,
-           transitioning from OpenAI API calls, to offer users broader model and chat experience options.
-          </li>
-          <li>
-          Tested multiple cloud providers (AWS, RunPod), GPUs (A100, RTX A6000, A40),
-           LLMs (primarily Llama2-based) and inference server frameworks (Hugging Face TGI, vLLM)
-            to find the optimal blend of cost-efficiency, low latency and output quality.
-          </li>
-          <li>
-          Conducted qualitative evaluations of model outputs and optimized
-           inference parameters and prompts for several LLM-enabled backend tasks
-           to ensure alignment with desired user experience.
-          </li>
-        </>
-      ),
-      logo: "",
-      link: {
-        label: "dreamtavern.ai",
-        href: "https://dreamtavern.ai/",
-      },
-    },
+    // {
+    //   title: "Deploying Open Source LLMs for DreamTavern.ai",
+    //   techStack: ["python", "docker", "cloud", "huggingface", "llms", "prompt engineering"],
+    //   description: (
+    //     <>
+    //       <li>
+    //       Spearheaded the deployment of open source LLMs for text generation inference,
+    //        transitioning from OpenAI API calls, to offer users broader model and chat experience options.
+    //       </li>
+    //       <li>
+    //       Tested multiple cloud providers (AWS, RunPod), GPUs (A100, RTX A6000, A40),
+    //        LLMs (primarily Llama2-based) and inference server frameworks (Hugging Face TGI, vLLM)
+    //         to find the optimal blend of cost-efficiency, low latency and output quality.
+    //       </li>
+    //       <li>
+    //       Conducted qualitative evaluations of model outputs and optimized
+    //        inference parameters and prompts for several LLM-enabled backend tasks
+    //        to ensure alignment with desired user experience.
+    //       </li>
+    //     </>
+    //   ),
+    //   logo: "",
+    //   link: {
+    //     label: "dreamtavern.ai",
+    //     href: "https://dreamtavern.ai/",
+    //   },
+    // },
     {
       title: "Neural Network with CUDA & MPI",
       techStack: ["c++", "cuda", "mpi", "profiling"],
