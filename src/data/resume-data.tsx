@@ -123,7 +123,7 @@ export const RESUME_DATA = {
       ),
     },
     {
-      company: "Machine Zone (Acq. ",
+      company: "Machine Zone (Acq. by AppLovin)",
       link: "https://www.mz.com/",
       badges: ["Marketing Data Science Research"],
       title: "Data Scientist",
@@ -220,8 +220,8 @@ export const RESUME_DATA = {
       ),
       logo: "",
       link: {
-        label: "",
-        href: "",
+        label: "github",
+        href: "https://github.com/leerickss/nn-with-cuda",
       },
     },
     {
@@ -235,8 +235,8 @@ export const RESUME_DATA = {
       ),
       logo: "",
       link: {
-        label: "",
-        href: "",
+        label: "github",
+        href: "https://github.com/leerickss/malmo-cs229",
       },
     },
   ],
