@@ -68,7 +68,7 @@ export const RESUME_DATA = {
       title: "Consultant",
       logo: "", 
       start: "2023",
-      end: "Present",
+      end: "2023",
       description: (
         <>
           <li>
