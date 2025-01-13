@@ -11,7 +11,7 @@ export const RESUME_DATA = {
   about:
     "",
   summary:
-    "ML Engineer experienced in building practical machine learning systems. Interesting problems that call for AI/ML solutions are what excite me the most!",
+    "I am comfortable working with large-scale data and developing and deploying ML models to production, managing every step of the ML model development cycle, from data pipelines and feature engineering to model training, evaluation, deployment, and A/B testing. In the past, I have worked on building DNN-based recommendation models at AppLovin, developed a multi-modal deep semantic embedder for Sponsored Products at Amazon, and led the deployment of open-source LLMs for text generation inference at DreamTavern.",
   avatarUrl: "https://avatars.githubusercontent.com/u/20169753?v=4",
   personalWebsiteUrl: "https://leerickss.github.io",
   contact: {
