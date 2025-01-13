@@ -11,7 +11,7 @@ export const RESUME_DATA = {
   about:
     "",
   summary:
-    "Data Scientist/ML Engineer experienced in building practical machine learning systems. Complex problems that call for ML and AI solutions are what excite me the most!",
+    "ML Engineer experienced in building practical machine learning systems. Interesting problems that call for AI/ML solutions are what excite me the most!",
   avatarUrl: "https://avatars.githubusercontent.com/u/20169753?v=4",
   personalWebsiteUrl: "https://leerickss.github.io",
   contact: {
@@ -65,25 +65,19 @@ export const RESUME_DATA = {
       company: "DreamTavern (Raised seed round from Lux Capital, BoxGroup)",
       link: "https://www.dreamtavern.ai/",
       badges: ["ML Consulting"],
-      title: "Consultant",
+      title: "ML Consultant",
       logo: "", 
       start: "2023",
       end: "2023",
       description: (
         <>
           <li>
-          Spearheaded the deployment of open source LLMs for text generation inference,
-           transitioning from OpenAI API calls, to offer users broader model and chat experience options.
+          Led the deployment of open-source LLMs for text generation inference, which replaced over 90% of OpenAI (gpt-3.5-turbo) API calls and expanded model offerings to over seven, providing better steerability and story generation while achieving comparable cost and Tokens Per Second.</li>
+          <li>
+          Conducted comprehensive testing across multiple cloud providers (AWS, RunPod), GPUs (A100, A40, A6000), LLMs (primarily Llama2-based), and inference frameworks (Hugging Face TGI, vLLM) to find the optimal blend of cost-efficiency, low latency and output quality.
           </li>
           <li>
-          Tested multiple cloud providers (AWS, RunPod), GPUs (A100, RTX A6000, A40),
-           LLMs (primarily Llama2-based) and inference server frameworks (Hugging Face TGI, vLLM)
-           to find the optimal blend of cost-efficiency, low latency and output quality.
-          </li>
-          <li>
-          Conducted qualitative evaluations of model outputs and optimized
-           inference parameters and prompts for several LLM-enabled backend tasks
-           to ensure alignment with desired user experience.
+          Performed qualitative evaluations of model outputs and optimized inference parameters and prompts for seamless integration with various LLM-enabled backend services, ensuring alignment with the desired user experience.
           </li>
         </>
       ),
@@ -99,25 +93,17 @@ export const RESUME_DATA = {
       description: (
         <>
           <li>
-          Developed and shipped ML models predicting key ad metrics
-           (including ad revenue, install rate and event rate) that power AppDiscovery,
-            a user acquisition service which drove over $300 million in quarterly revenue
-             using BigQuery, Spark, and PyTorch.
-            <a href="https://www.applovin.com/appdiscovery/">[1]</a>
+          Developed tree-based and DNN recommendation models predicting key ad engagement and revenue metrics that power AppDiscovery, a UA product generating over $300M quarterly revenue, using BigQuery, Spark, XGBoost, and PyTorch.            <a href="https://www.applovin.com/appdiscovery/">[1]</a>
           </li>
           <li>
-          Managed deployment and A/B testing of models developed;
-           each improvement boosted advertiser spend and margin by up to 10%.
+          Led developments and iterative improvements of ad revenue and event rate models and contributed to the install rate model, increasing advertiser spend and/or profit margins by up to 10% per iteration. Managed deployment and A/B testing for all models.
           </li>
           <li>
-          Created a gradient-based feature importance measurement tool
-           using PyTorch Captum to guide feature and model architecture development
-            for the first launch of deep learning models (Axon 2.0 for AppDiscovery).
-            <a href="https://www.applovin.com/blog/appdiscoverys-ai-advancements/">[2]</a>
+          Created a gradient-based feature importance measurement and visualization tool using PyTorch Captum to guide feature and model architecture development for the first launch of deep learning bidder models (Axon 2.0 for AppDiscovery).
+          <a href="https://www.applovin.com/blog/appdiscoverys-ai-advancements/">[2]</a>
           </li>
           <li>
-          Implemented ML metric logging and monitored 1000+ models in production
-           using Weights & Biases and Grafana.
+          Implemented ML metric logging and monitored 1,000+ models in production using Weights & Biases and Grafana.
           </li>
         </>
       ),
@@ -133,19 +119,12 @@ export const RESUME_DATA = {
       description: (
         <>
           <li>
-          Automated the aggregation of costs associated with fraudulent channels
-           using Airflow, which saved $500k+(~5% of spend) of monthly cost
-            and replaced manual efforts with auto-generated reports.
+          Automated the aggregation of costs associated with fraudulent marketing channels using Airflow, which saved $500k+(~5% of spend) of monthly cost and replaced manual efforts with auto-generated reports.          </li>
+          <li>
+          Designed and implemented new signals for a fraud detection system that multiple teams of marketing analysts used daily for campaign optimization, using Pandas, Spark and MySQL.
           </li>
           <li>
-          Designed and implemented new signals for a fraud detection system
-           that multiple teams of marketing analysts used daily for campaign optimization,
-            using Pandas, Spark and MySQL.
-          </li>
-          <li>
-          Led technical communications with ad networks (Unity, Tapjoy) for
-           refund negotiations, by explaining statistical methodologies used
-            for fraud detection. 
+          Led technical communications with ad networks (Unity, etc.) for refund negotiations, by explaining statistical methodologies used for fraud detection.
           </li>
         </>
       ),
@@ -161,16 +140,13 @@ export const RESUME_DATA = {
       description: (
         <>
           <li>
-          Researched and developed a Deep Semantic Embedding for Sponsored products
-           using TensorFlow, designed for ranking, filtering and other downstream tasks. 
+          Researched and developed a Deep Semantic Embedding for Sponsored products that jointly embedded query texts and Amazon products for use in ranking, filtering, and other downstream tasks.
           </li>
           <li>
-          Implemented a multimodal (text + image) two-tower architecture model,
-           trained on a data set of 10+ million user purchases.
+          Implemented a multimodal (text + image) two-tower neural network architecture using TensorFlow, trained on a dataset of 10+ million user purchases with contrastive loss, improving AUC by 2% compared to text-only representations.
           </li>
           <li>
-          Created visualization and retrieval demos for in-depth qualitative analysis
-           and final presentation.
+          Created visualization and retrieval demos for in-depth qualitative analysis and final presentation.
           </li>
         </>
       ),
@@ -178,7 +154,10 @@ export const RESUME_DATA = {
   ],
   skills: [
     "Python", "C++", "Java", "R",
-    "SQL", "Spark", "PyTorch", "TensorFlow", "Airflow"
+    "SQL", "Spark", "Hive", "Docker", "Kubernetes", "Airflow", "Grafana",
+    "Google Cloud Platform", "Amazon Web Services",
+    "PyTorch", "TensorFlow", "Keras", "Hugging Face",
+    "XGBoost", "scikit-learn", "Pandas", "Weights & Biases", "Grafana", 
   ],
   projects: [
     // {
